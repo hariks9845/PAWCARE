@@ -1,0 +1,83 @@
+body, html, .App {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  margin-left: 10px;
+}
+
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.video-overlay h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.video-overlay button {
+  background-color: white;
+  color: #ff6f61;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
